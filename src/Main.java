@@ -14,7 +14,7 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
         
 //        JButton button1 = new JButton("1");
         
